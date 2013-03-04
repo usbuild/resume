@@ -1,0 +1,77 @@
+a {
+    outline: none;
+    color: #21759B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0F3647;
+}
+
+a:visited {
+    color: #226288;
+}
+
+body {
+    background-color: #D8D8D8;
+    color: #444;
+}
+
+::selection {
+    background-color: #ccc;
+}
+
+.main-container {
+    width: 960px;
+    height: 1000px;
+    margin: 40px auto;
+    padding: 20px 50px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+
+.qrcode img {
+    float: left;
+    height: 120px;
+    width: 120px;
+}
+
+.contact-info {
+    float: right;
+    padding-top: 20px;
+    text-align: right;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.name {
+    color: white;
+    height: 50px;
+    background-color: #7E97AD;
+    line-height: 50px;
+    padding-left: 20px;
+    font-weight: normal;
+    font-size: 21px;
+    margin-top: 120px;
+}
+
+.row {
+    border-bottom: solid #7E97AD 1px;
+    height: 180px;
+}
+
+.row-name {
+    color: #7E97AD;
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+    color: #7E97AD;
+}
+
+.row-content {
+    font-size: 15px;
+    float: right;
+    text-align: left;
+    width: 50%;
+}
