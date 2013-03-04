@@ -1,3 +1,8 @@
+body {
+    background-color: #D8D8D8;
+    color: #444;
+    line-height: 1.5em;
+}
 a {
     outline: none;
     color: #21759B;
@@ -12,10 +17,6 @@ a:visited {
     color: #226288;
 }
 
-body {
-    background-color: #D8D8D8;
-    color: #444;
-}
 
 ::selection {
     background-color: #ccc;
@@ -40,7 +41,7 @@ body {
     float: right;
     padding-top: 20px;
     text-align: right;
-    font-size: 13px;
+    font-size: 0.8em;
     font-weight: normal;
 }
 
