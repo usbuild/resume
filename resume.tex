@@ -1,0 +1,107 @@
+\documentclass[margin]{res}
+
+\usepackage{fontspec,xltxtra,xunicode}
+\usepackage{latexsym}
+\usepackage{xeCJK}
+
+\defaultfontfeatures{Mapping=tex-text}
+\setCJKmainfont[BoldFont=SimHei,ItalicFont=KaiTi]{SimSun}
+\setmainfont{Palatino Linotype}
+
+\textwidth=5.2in % increase textwidth to get smaller right margin
+
+\usepackage[hidelinks]{hyperref}
+\begin{document} 
+
+\address{ 张启超 \\ }
+\address{ 南京大学, 汉口路22号, 210093 \\ (+86) 152-9838-8316  \\ \href{http://lecoding.com}{http://lecoding.com} \\ 
+\href{mailto:njuzhangqichao@gmail.com}{njuzhangqichao@gmail.com} }
+
+ 
+\begin{resume} 
+ 
+\section{技能} 
+   \begin{tabular}{l p{3in}}
+      \bf{系统} &  Ubuntu, ArchLinux, CentOS \\
+      \bf{编程语言} &  C, Java, PHP, JavaScript, C++, Python, Shell \\
+      \bf{工具} & Vim, Git, GDB, IntelliJ, Eclipse \\
+      \bf{框架} & jQuery, Yii, Backbone, Spring
+ \end{tabular}
+
+\section{经验} 
+{\bf 江苏中正信息科技有限公司} \hfill 2012-7-20 至 2012-12-20 
+\begin{itemize} \itemsep -2pt 
+\item 这是一个创业团队，主要使用 YII 框架开发 PHP 程序。
+\item 本人的工作主要做开放平台 OAuth2.0 认证和平台 API 接口的设计工作。除此还进行一些前端的开发工作(基于 jQuery 和 Bootstrap )
+\end{itemize}
+
+\section{项目}
+ {\bf UWS,} 轻量级HTTP服务器\hfill 2012 - 2013
+ \begin{itemize} \itemsep -2pt
+
+\item 个人项目,使用C语言开发,旨在设计一个高性能的Web服务器，功能类似于 Nginx，截至目前版本已开发到 0.0.10。
+\item 功能包括：304 页面支持，Http Basic 认证，Url 重写，简单的反向代理，FastCGI 支持。
+\item 在虚拟机512M的内存情况下，ab 测试 1000 并发单进程处理量超过 7kqps
+\item 其中一个子项目使用了自己开发的动态内存管理程序 usmem，类似于 Loki，彻底解决了服务器的内存泄漏问题。
+\end{itemize}
+
+ 
+ 
+{\bf DistMEM,} NoSQL 数据库\hfill  2012 - 2013
+\begin{itemize} \itemsep -2pt
+\item 个人项目,使用C++开发。类似于Redis，提供弱化的API接口，仅支持set,get和del。
+\item 数据类型支持String，Float，List，Int，其中String是Binary Safe的。
+\item 数据存储参照了Fat12文件格式，索引使用了B树，为了提高访问性能采用了LRU作为缓存机制。
+\item 另外本人还开发了php\_distmem 作为PHP语言访问该数据库的C语言扩展。
+\end{itemize}
+
+{\bf 南大文集,} 南京大学文学爱好者社区 \hfill 2012
+\begin{itemize} \itemsep -2pt
+\item 合作项目,基于YII框架。这是与学长合作的一个项目，旨在为南京大学文学爱好者提供一个单纯的交流平台。本人的工作有：
+\item 社交网络分享模块和评论模块
+\item 类MarkDown语法解析器和评论框 @ 提示功能(已做成 jQuery 插件)
+\item 其它一些前端和后端琐碎工作，为别人提供RESTful接口，修改页面CSS显示等。
+\end{itemize}
+
+{\bf UPLEX,} Python 语言的 Lex 解析器 \hfill 2012
+\begin{itemize} \itemsep -2pt
+\item 个人项目,使用Python语言开发的LEX程序。
+\item 依据编译原理中的知识设计的Python版本的Lex，核心是正则表达式引擎。利用NFA->DFA->mDFA得到处理后的正则，可应对简单的正则表达式。
+\item 该程序可读取*.l文件生成规则解析文件。
+\end{itemize}
+
+{\bf Lily-PHP-SDK,} 南京大学小百合论坛SDK \hfill 2011 - 2012
+\begin{itemize} \itemsep -2pt
+\item 个人项目,使用PHP开发。为了封装南京大学小百合论坛的 API 而编写的程序。
+\item 主要工作是解析页面DOM，采用了正则匹配，最终提供合乎规范的调用接口。
+\item LilyMe 是该 SDK 的衍生项目，基于jQuery Mobile的小百合移动网页版。
+\item LilyClient 是该 SDK 的衍生项目，这是一个Android版本的小百合客户端，添加了的部分功能如“@”、”位置标记”等。
+\end{itemize}
+
+{\bf 其它项目}\hfill 2011 - 2013
+\begin{itemize} \itemsep -2pt
+\item 轻博客，基于YII和jQuery的博客系统
+\item 网络白板，基于Java和Swing的远程白板程序，本人主要负责整体架构、语音传输和IPC功能。
+\item 基于Google App Engine和Python的一些实用程序，如记事本，匿名网盘等。
+\item 教务网自动选课插件。这是一个 Chrome 插件，用于南京大学教务网抢课，使用 JS 开发，实际使用效果显著。
+\end{itemize}
+
+\section{在校成绩} 
+   \begin{tabular}{l p{3in}}
+      GPA &  4.1/5.0 \\
+      四级 & 617 \\
+      六级 & 546
+ \end{tabular}
+
+\section{相关链接}
+   \begin{tabular}{l p{3in}}
+     \underline{个人博客:} & \href{http://lecoding.com}{http://lecoding.com}\\
+     \underline{GitHub:} &  \href{https://github.com/usbuild}{https://github.com/usbuild}\\
+     \underline{Twitter:} & \href{https://twitter.com/usbuild}{https://twitter.com/usbuild}
+ \end{tabular}
+
+\end{resume} 
+\end{document} 
+
+
+
