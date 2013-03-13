@@ -65,7 +65,7 @@ var data = {
                 content:"<ol><li>轻博客，基于YII和jQuery的博客系统</li>" +
                     "<li>网络白板，基于Java和Swing的远程白板程序，主要负责整体架构、语音传输和IPC功能。</li>" +
                     "<li>基于Google App Engine和Python的一些实用程序，如记事本，匿名网盘等。<a href=\"http://tools.lecoding.com\">访问网站</a></li>" +
-                    "<li>教务网自动选课插件。这是一个Chrome插件，用于南京大学教务网的选课，使用HTML5开发，实际使用效果显著。</li></ol>"
+                    "<li>教务网自动选课插件。这是一个Chrome插件，用于南京大学教务网抢课，使用HTML5开发，实际使用效果显著。</li></ol>"
             }
 
         ]},
