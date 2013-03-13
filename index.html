@@ -1,33 +1,59 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>测试网页</title>
+    <title>张启超的简历 | Qichao Zhang's Resume</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="css/main.css" type="text/css"/>
     <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/mustache.js"></script>
+    <script type="text/html" id="template">
+        {{#user_info}}
+        <div class="scroll-header">
+            <div class="qrcode">
+                <img src="img/qrcode.png" alt="">
+            </div>
+            <div class="contact-info">
+                <span>{{addr}}</span><br>
+                <span>{{phone}}</span><br>
+                <span><a href="{{url}}">{{url}}</a></span><br>
+                <span><a href="mailto:{{mail}}">{{mail}}</a></span>
+            </div>
+        </div>
+        {{/user_info}}
+
+        <div class="name">
+            {{name}}
+        </div>
+
+        {{#items}}
+        <div class="content">
+            <div class="row clearfix">
+                <div class="row-name">{{name}}</div>
+                <div class="row-content">
+                    {{#contents}}
+
+                    <div class="content-item">
+                        {{#!header}}
+                        <div class="content-info clearfix">
+                            <div class="content-header">{{{header}}}</div>
+                            <div class="content-time">{{time}}</div>
+                        </div>
+                        {{/!header}}
+
+                        {{{content}}}
+                    </div>
+                    {{/contents}}
+                </div>
+            </div>
+        </div>
+        {{/items}}
+    </script>
 </head>
 <body>
-<div class="main-container">
-    <div class="scroll-header">
-        <div class="qrcode">
-            <img src="img/qrcode.png" alt="">
-        </div>
-        <div class="contact-info">
-            <span>南京大学, 汉口路22号, 210093</span><br>
-            <span>152-9838-8316</span><br>
-            <span><a href="http://lecoding.com">http://lecoding.com</a></span><br>
-            <span><a href="mailto:zqc10@software.nju.edu.cn">zqc10@software.nju.edu.cn</a></span>
-        </div>
-    </div>
-    <div class="name">
-        您的标题
-    </div>
-    <div class="content">
-        <div class="row">
-            <div class="row-name">技能</div>
-            <div class="row-content">擅长XXX</div>
-        </div>
-    </div>
+<div class="main-container" id="main">
+
+
 </div>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
