@@ -29,14 +29,14 @@ var data = {
                 content: ["个人项目。使用C语言开发。旨在设计一个高性能的Web服务器，功能类似于 Nginx，截至目前版本已开发到 0.0.10。",
                     "其中一个子项目使用了自己开发的动态内存管理程序 <a href=\"https://github.com/usbuild/usmem\">usmem</a>，类似于 Loki，彻底解决了服务器的内存泄漏问题。<br>",
                     "功能包括：304 页面支持，Http Basic 认证，Url 重写，简单的反向代理，FastCGI 支持。<br>",
-                    "性能：在虚拟机512M的内存情况下，ab 测试 1000 并发单进程处理量超过 7kqps"].join()
+                    "性能：在虚拟机512M的内存情况下，ab 测试 1000 并发单进程处理量超过 7kqps"].join("")
             },
             {
                 header: "<a href=\"https://github.com/usbuild/distmem\">DistMem: NoSQL 数据库</a>",
                 time: "2012 ~ 2013",
                 content: ["个人项目。使用C++开发。类似于Redis，提供弱化的API接口，仅支持set,get和del，数据类型支持String，Float，List，Int，其中String是Binary Safe的。",
                     "数据存储参照了Fat12文件格式，索引使用了B树，为了提高访问性能采用了LRU作为缓存机制。<br>",
-                    "另外我还开发了<a href=\"https://github.com/usbuild/php_distmem\">php_distmem</a> 作为PHP访问该数据库的C语言扩展。"].join()
+                    "另外我还开发了<a href=\"https://github.com/usbuild/php_distmem\">php_distmem</a> 作为PHP访问该数据库的C语言扩展。"].join("")
             },
             {
                 header: "南大文集",
@@ -46,7 +46,7 @@ var data = {
                     "<li>评论功能，包括评论的展示和发表。</li>",
                     "<li>类Markdown的格式转换器，用于将特定的文章格式转为标准的HTML。</li>",
                     "<li>@提示列表功能，目前已做成jQuery插件。</li>",
-                    "<li>其它一些前端和后端琐碎工作，为别人提供RESTful接口，修改页面CSS显示等。</li></ol>"].join()
+                    "<li>其它一些前端和后端琐碎工作，为别人提供RESTful接口，修改页面CSS显示等。</li></ol>"].join("")
             },
             {
                 header: "<a href=\"https://github.com/usbuild/uplex\">UPLEX: Python Lex 解析器</a>",
@@ -58,7 +58,7 @@ var data = {
                 time: "2011~2012",
                 content: ["个人项目。使用PHP开发，为了封装南京大学小百合论坛的 API 而编写的程序。由于小百合未提供API，所以我的主要工作是解析页面DOM，考虑到效率问题，我主要采用了正则匹配，最终提供合乎规范的调用接口。相关子项目如下:<br>",
                     "<ol><li><a href=\"https://github.com/usbuild/Lily-ME\">Lily-ME</a>: 这是一个基于jQuery Mobile的小百合移动网页版，使用了上面提供的SDK。</li>",
-                    "<li><a href=\"https://github.com/usbuild/LilyClient\">Lily-Mobile</a>: 这是一个Android版本的小百合客户端，使用了上面提供的SDK并添加的部分功能如“@”、”位置标记”等功能。</li></ol>"].join()
+                    "<li><a href=\"https://github.com/usbuild/LilyClient\">Lily-Mobile</a>: 这是一个Android版本的小百合客户端，使用了上面提供的SDK并添加的部分功能如“@”、”位置标记”等功能。</li></ol>"].join("")
             },
             {
                 header: "其它项目",
@@ -66,7 +66,7 @@ var data = {
                 content: ["<ol><li>轻博客，基于YII和jQuery的博客系统</li>",
                     "<li>网络白板，基于Java和Swing的远程白板程序，主要负责整体架构、语音传输和IPC功能。</li>",
                     "<li>基于Google App Engine和Python的一些实用程序，如记事本，匿名网盘等。<a href=\"http://tools.lecoding.com\">访问网站</a></li>",
-                    "<li>教务网自动选课插件。这是一个Chrome插件，用于南京大学教务网抢课，使用HTML5开发，实际使用效果显著。</li></ol>"].join()
+                    "<li>教务网自动选课插件。这是一个Chrome插件，用于南京大学教务网抢课，使用HTML5开发，实际使用效果显著。</li></ol>"].join("")
             }
 
         ]},

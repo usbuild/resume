@@ -83,7 +83,7 @@ var data = {
             ]
         },
         {
-            name: "相关链接",
+            name: "Links",
             contents: [
                 {content: "BLOG:  <a href=\"http://lecoding.com\">http://lecoding.com</a>"},
                 {content: "GitHub:   <a href=\"https://github.com/usbuild\">https://github.com/usbuild</a>"},
