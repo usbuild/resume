@@ -3,7 +3,7 @@ body {
     color: #444;
     line-height: 1.5em;
     font-family: Palatino Linotype, sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 ul {
@@ -105,7 +105,6 @@ a:visited {
 }
 
 .content-header {
-    font-weight: bold;
     float: left;
 }
 
