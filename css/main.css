@@ -118,7 +118,7 @@ a:visited {
     margin-bottom: 10px;
 }
 
-.navbar {
+#navbar {
     color: #CCC;
     font: normal 13px/28px sans-serif;
     height: 28px;
@@ -138,19 +138,19 @@ a:visited {
     background-image: linear-gradient(to top, #373737 0, #464646 5px);
 }
 
-.navbar a {
+#navbar a {
     color: #e7e7e7;
 }
 
-.navbar a:hover {
+#navbar a:hover {
     color: white;
 }
 
-.navbar .tip {
+#tip {
     float: left;
 }
 
-.navbar .fork {
+#fork {
     float: right;
     margin-right: 100px;
 }
@@ -171,7 +171,7 @@ a:visited {
         margin: 0.1cm;
     }
 
-    .navbar {
+    #navbar {
         display: none;
     }
 
