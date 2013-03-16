@@ -1,0 +1,109 @@
+\documentclass[margin]{res}
+
+\usepackage{fontspec,xltxtra,xunicode}
+\usepackage{latexsym}
+\usepackage{xeCJK}
+
+\defaultfontfeatures{Mapping=tex-text}
+\setCJKmainfont[BoldFont=SimHei,ItalicFont=KaiTi]{SimSun}
+\setmainfont{Palatino Linotype}
+
+\textwidth=5.2in % increase textwidth to get smaller right margin
+
+\usepackage[hidelinks]{hyperref}
+\begin{document} 
+
+\address{ Qichao Zhang \\ }
+\address{ Nanjing University, #22 Hankou Road, 210093 \\ (+86) 152-9838-8316  \\ \href{http://lecoding.com}{http://lecoding.com} \\ 
+\href{mailto:njuzhangqichao@gmail.com}{njuzhangqichao@gmail.com} }
+
+ 
+\begin{resume} 
+ 
+\section{Technical Skills} 
+   \begin{tabular}{l p{3in}}
+      \bf{Operating Systems} &  Ubuntu, ArchLinux, Gentoo, CentOS \\
+      \bf{Languages} &  C, Java, PHP, JavaScript, C++, Python, Bash \\
+      \bf{Softwares} & Vim, Git, GDB, IntelliJ, Eclipse, Maven \\
+      \bf{Frameworks} & jQuery, Yii, Backbone, Spring, Spring MVC
+ \end{tabular}
+
+\section{Experience} 
+{\bf Jiangsu Zhongzheng InfoTech Ltd} \hfill 2012-7-20 to 2012-12-20 
+\begin{itemize} \itemsep -2pt 
+\item A entrepreneurial team, working on a platform website to serve NJU students, using PHP and Yii Framework.
+\item My job here mainly includesdesigning the authentication for OAuth2.0 and supplying APIs for the open platform, besides some front-end development (using jQuery and Bootstrap).
+\item Here, I learned a lot about team cooperation and font-end to backend interaction.
+\end{itemize}
+
+\section{Projects}
+{\bf UWS,} A lightweight http web server\hfill 2012 - 2013
+\begin{itemize} \itemsep -2pt
+  \item Independent Project, developing with C language, aiming to build a high performace http server, it has similar configuration file with nginx.
+  \item Implemented functions：custom error pages, 304 status , deflate and gzip compression, http basic authentication, url rewrite, simple reverse proxy and FastCGI support.
+  \item Performance：under Ubuntu in a VMware instance having 512M memory, it can handle 7wqps of apache ab test at single process mode.
+  \item To solve the memory leak problem, I wrote a memory pool named usmem, referring the design of Loki.
+  \item I also write a demo site: \href{http://demo.lecoding.com}{http://demo.lecoding.com}
+\end{itemize}
+
+
+
+{\bf DistMEM,} a NoSQL database\hfill  2012 - 2013
+\begin{itemize} \itemsep -2pt
+  \item Independent Project, developing with C++. It provides simple APIs, like set,get and del.
+  \item It provides simple APIs, like set,get and del.It has 4 data types: int, float, string and list, and string is binary safe.
+  \item The data file implementation take the design of the FAT12 file system and it uses B-Tree as index structure, also I add LRU cache for better performance. 
+  \item The protocol of communicating refers the Redis specification, so it's cross-platformed, and I wrote a client console using Python.
+  \item Besides, I developed a PHP extension named php\_distmem(written in C) to supply access to distmem.
+\end{itemize}
+
+{\bf NJU Wenji,} A web site for literature lovers \hfill 2012
+\begin{itemize} \itemsep -2pt
+  \item Cooperative project, based on Yii Framework. It's a project I written with seniors, providing a site for NJU literature lovers. My job mainly includes:
+  \item Integrating with SNS and share with others using OAuth2.0
+  \item Comment, includes post comments and their display
+  \item A Markdown-like language interpreter, translating specific article format to HTML
+  \item A jQuery plugin of building a dropdown list in a textarea
+  \item Other trivial jobs like supplying RESTful APIs and building front-end interaction
+\end{itemize}
+
+{\bf UPLEX,} Python Lex interpreter\hfill 2012
+\begin{itemize} \itemsep -2pt
+  \item Independent project, A lex implementation using Python language, according to <Compilers>.
+  \item Regular expression engine is its core function, using the procedure NFA->DFA->mDFA, we can get a minimized DFA, it can deal with simple regexp. This program can read a *.l file and generate a runnable py file.
+\end{itemize}
+
+{\bf Lily-PHP-SDK,} NJU Lily BBS API Wrapper\hfill 2011 - 2012
+\begin{itemize} \itemsep -2pt
+  \item Independent project, develop with PHP. Lily BBS is too old to supply standard API, so I using curl to craw the site and resolve useable APIs. Here are some sub-projects:
+  \item Lily-ME: A mobile site of Lily BBS using jQuery Mobile and Lily-PHP-SDK.
+  \item Lily-Mobile: This is an android app for Lily BBS, enhanced the bbs and using proxy to save network cost.
+\end{itemize}
+
+{\bf Other projects}\hfill 2011 - 2013
+\begin{itemize} \itemsep -2pt
+  \item Light blog，A blog app based on Yii Framework and jQuery
+  \item Remote whiteboard, based on Java and Swing, I am in charge of software architecture, audio transmission and message queue.
+  \item Some Python websites on Google App Engine, like blog, disk and notepad. view online
+  \item NJU-Courses-Select chrome plugin, using for grabbing hot courses.
+\end{itemize}
+
+\section{Education} 
+\begin{tabular}{l p{3in}}
+  GPA &  4.1/5.0 \\
+  CET4 / CET6 & 617 / 546 \\
+  Renming 3rd class scholarship
+\end{tabular}
+
+\section{Links}
+\begin{tabular}{l p{3in}}
+  \underline{BLOG:} & \href{http://lecoding.com}{http://lecoding.com}\\
+  \underline{GitHub:} &  \href{https://github.com/usbuild}{https://github.com/usbuild}\\
+  \underline{Twitter:} & \href{https://twitter.com/usbuild}{https://twitter.com/usbuild}
+\end{tabular}
+
+\end{resume} 
+\end{document} 
+
+
+

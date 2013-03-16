@@ -9,20 +9,20 @@ var data = {
     },
     items: [
         {name: "Technical Skills", contents: [
-            {content: "<ul><li><strong>Operating Systems</strong> Ubuntu, ArchLinux, CentOS</li>" +
+            {content: "<ul><li><strong>Operating Systems</strong> Ubuntu, ArchLinux, Gentoo, CentOS</li>" +
                 "<li><strong>Languages</strong> C, Java, PHP, JavaScript, C++, Python, Bash</li>" +
-                "<li><strong>Softwares</strong> Vim, Git, GDB, IntelliJ, Eclipse</li>" +
-                "<li><strong>Frameworks</strong> jQuery, Yii, Backbone, Spring</li></ul>"
+                "<li><strong>Softwares</strong> Vim, Git, GDB, IntelliJ, Eclipse, Maven</li>" +
+                "<li><strong>Frameworks</strong> jQuery, Yii, Backbone, Spring, Spring MVC</li></ul>"
             }
         ]
         },
         {name: "Experience", contents: [
             {   header: "Jiangsu Zhongzheng InfoTech Ltd",
                 time: "2012-7-20 ~ 2012-12-20",
-                content: ["A Entrepreneurial team, working on a platform website to serve NJU students, using PHP and Yii Framework. My job here mainly includes",
+                content: ["A entrepreneurial team, working on a platform website to serve NJU students, using PHP and Yii Framework. My job here mainly includes",
                     "designing the authentication for OAuth2.0 and supplying APIs for the open platform, besides some front-end development (using jQuery and Bootstrap).",
-                    "here, I learned a lot about team cooperation and font-end to backend interaction"
-                ].join()
+                    "Here, I learned a lot about team cooperation and font-end to backend interaction"
+                ].join("")
             }
         ]},
         {name: "Projects", contents: [
@@ -41,15 +41,15 @@ var data = {
                 header: "<a href=\"https://github.com/usbuild/distmem\"><strong>DistMem,</strong> a NoSQL database</a>",
                 time: "2012 ~ 2013",
                 content: ["Independent Project, developing with C++. It provides simple APIs, like set,get and del.",
-                    "It has 4 data types: int, float, string and list, and string is binary safe",
-                    "The data file implementation take the design of the FAT12 file system and it uses B-Tree as index structure, also I add LRU cache for better performance<br>",
+                    "It has 4 data types: int, float, string and list, and string is binary safe. ",
+                    "The data file implementation take the design of the FAT12 file system and it uses B-Tree as index structure, also I add LRU cache for better performance. <br>",
                     "The protocol of communicating refers the Redis specification, so it's cross-platformed, and I wrote a client console using Python.<br/>",
-                    "Besides, I developed a PHP extension named <a href=\"https://github.com/usbuild/php_distmem\">php_distmem</a>(written in C) to supply access to distmem。"].join("")
+                    "Besides, I developed a PHP extension named <a href=\"https://github.com/usbuild/php_distmem\">php_distmem</a>(written in C) to supply access to distmem."].join("")
             },
             {
                 header: "<strong>NJU Wenji</strong>, A web site for literature lovers",
                 time: "2012",
-                content: ["Cooperative project, based on Yii Framework. It's a project I written with seniors, providing a site for NJU literature lovers<br/>",
+                content: ["Cooperative project, based on Yii Framework. It's a project I written with seniors, providing a site for NJU literature lovers. <br/>",
                     "My job mainly includes：<ol><li>Integrating with SNS and share with others using OAuth2.0</li>",
                     "<li>Comment, includes post comments and their display</li>",
                     "<li>A <a href=\"http://daringfireball.net/projects/markdown/\">Markdown</a>-like language interpreter, translating specific article format to HTML</li>",
