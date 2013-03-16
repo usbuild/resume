@@ -29,9 +29,11 @@ var data = {
                 time: "2012 ~ 2013",
                 content: ["Independent Project, developing with C language, aiming to build a high performace http server, it has similar configuration file with <a href=\"http://nginx.org/\">nginx</a>.",
                     "implement functions：304 page support , Http basic authentication, url rewrite, simple reverse proxy and <a href=\"www.fastcgi.com/\">FastCGI</a> support.<br>",
-                    "performance：under Ubuntu in a VMware instance having 512M memory, it can handle 7wqps of apache ab test<br/>",
+                    "performance：under Ubuntu in a VMware instance having 512M memory, it can handle 7wqps of apache ab test in single process mode<br/>",
                     "by the way, I wrote a memory pool named <a href=\"https://github.com/usbuild/usmem\">usmem</a>,",
-                    " just like <a href=\"http://loki-lib.sourceforge.net/\">Loki</a>, it solved the memory leak problem."].join("")
+                    " just like <a href=\"http://loki-lib.sourceforge.net/\">Loki</a>, it solved the memory leak problem.<br/>",
+                    "<a href='http://demo.lecoding.com' target='_blank'>==>View Demo Site</a>"
+                ].join("")
             },
             {
                 header: "<a href=\"https://github.com/usbuild/distmem\"><strong>DistMem,</strong> a NoSQL database</a>",

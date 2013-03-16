@@ -29,7 +29,8 @@ var data = {
                 content: ["个人项目。使用C语言开发。旨在设计一个高性能的Web服务器，功能类似于 Nginx，截至目前版本已开发到 0.0.10。",
                     "其中一个子项目使用了自己开发的动态内存管理程序 <a href=\"https://github.com/usbuild/usmem\">usmem</a>，类似于 Loki，彻底解决了服务器的内存泄漏问题。<br>",
                     "功能包括：304 页面支持，Http Basic 认证，Url 重写，简单的反向代理，FastCGI 支持。<br>",
-                    "性能：在虚拟机512M的内存情况下，ab 测试 1000 并发单进程处理量超过 7kqps"].join("")
+                    "性能：在虚拟机512M的内存情况下，ab 测试 1000 并发单进程处理量超过 7kqps<br>",
+                    "<a href='http://demo.lecoding.com' target='_blank'>==>访问Demo站</a>"].join("")
             },
             {
                 header: "<a href=\"https://github.com/usbuild/distmem\">DistMem: NoSQL 数据库</a>",
