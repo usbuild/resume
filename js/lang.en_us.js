@@ -10,8 +10,8 @@ var data = {
     items: [
         {name: "Technical Skills", contents: [
             {content: "<ul><li><strong>Operating Systems</strong> Ubuntu, ArchLinux, CentOS</li>" +
-                "<li><strong>Languages</strong> C, Java, PHP, JavaScript, C++, Python, Shell</li>" +
-                "<li><strong>Softwares</strong> Vim, Git, IntelliJ, Eclipse</li>" +
+                "<li><strong>Languages</strong> C, Java, PHP, JavaScript, C++, Python, Bash</li>" +
+                "<li><strong>Softwares</strong> Vim, Git, GDB, IntelliJ, Eclipse</li>" +
                 "<li><strong>Frameworks</strong> jQuery, Yii, Backbone, Spring</li></ul>"
             }
         ]
