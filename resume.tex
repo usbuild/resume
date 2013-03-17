@@ -22,10 +22,10 @@
  
 \section{技能} 
    \begin{tabular}{l p{3in}}
-      \bf{系统} &  Ubuntu, ArchLinux, Gentoo, CentOS \\
-      \bf{编程语言} &  C, Java, PHP, JavaScript, C++, Python, Bash \\
-      \bf{工具} & Vim, Git, GDB, IntelliJ, Eclipse, Maven \\
-      \bf{框架} & jQuery, Yii, Backbone, Spring, Spring MVC
+      \underline{系统} &  Ubuntu, ArchLinux, Gentoo, CentOS \\
+      \underline{编程语言} &  C, Java, PHP, JavaScript, C++, Python, Bash \\
+      \underline{工具} & Vim, Git, GDB, IntelliJ, Eclipse, Maven \\
+      \underline{框架} & jQuery, Yii, Backbone, Spring, Spring MVC
  \end{tabular}
 
 \section{经验} 
@@ -37,13 +37,13 @@
 \end{itemize}
 
 \section{项目}
- {\bf UWS,} 轻量级HTTP服务器\hfill 2012 - 2013
+ {\bf UWS,} 轻量级 HTTP 服务器\hfill 2012 - 2013
  \begin{itemize} \itemsep -2pt
 
-\item 个人项目,使用C语言开发,旨在设计一个高性能的Web服务器，功能类似于 Nginx，截至目前版本已达到 0.0.10。
+\item 个人项目,使用 C 语言开发,旨在设计一个高性能的 Web 服务器，功能类似于 Nginx，截至目前版本已达到 0.0.10。
 \item 功能包括：虚拟主机，自定义错误页，304 状态，gzip 和 deflate 压缩，http basic 认证，url 重写，简单的反向代理，FastCGI 支持。
-\item 在虚拟机512M的内存情况下，ab 测试 1000 并发单进程处理量超过 7kqps
-\item 为了解决服务器内存泄漏问题，本人编写了一个内存管理程序 usmem，借鉴了 Loki 的实现，使内存分配效率得到提高。
+\item 在虚拟机 512M 的内存情况下，ab 测试 1000 并发单进程处理量超过 7kqps
+\item 为了解决服务器内存泄漏问题，本人编写了一个内存管理程序 \href{https://github.com/usbuild/usmem}{usmem}，借鉴了 Loki 的实现，使内存分配效率得到提高。
 \item 目前测试站点已上线，\href{http://demo.lecoding.com}{http://demo.lecoding.com}
 \end{itemize}
 
@@ -51,7 +51,7 @@
  
 {\bf DistMEM,} NoSQL 数据库\hfill  2012 - 2013
 \begin{itemize} \itemsep -2pt
-\item 个人项目，使用C++开发。提供了简单的 API ，支持 set, get 和 del 操作。
+\item 个人项目，使用 C++ 开发。提供了简单的 API ，支持 set, get 和 del 操作。
 \item 数据类型支持 string，float，list，int，其中 string 是二进制安全的。
 \item 数据存储参照了 fat12 文件格式，索引使用了 B 树，为了提高访问性能采用了 LRU 作为缓存算法。
 \item 数据交换协议参照了 Redis，并使用 Python 编写了客户端控制台。
@@ -68,14 +68,14 @@
 
 {\bf UPLEX,} Python 语言的 Lex 解析器 \hfill 2012
 \begin{itemize} \itemsep -2pt
-\item 个人项目,使用Python语言开发的LEX程序。
+\item 个人项目,使用 Python 语言开发的 LEX 程序。
 \item 依据《编译原理》中的知识设计的 Python 版本的Lex，核心是正则表达式引擎。可对简单的正则使用 NFA->DFA->mDFA 过程处理得到最小化 DFA ，再依据 *.l 文件生成规则解析文件。
 \end{itemize}
 
 {\bf Lily-PHP-SDK,} 南京大学小百合论坛 SDK \hfill 2011 - 2012
 \begin{itemize} \itemsep -2pt
-\item 个人项目,使用PHP开发。为了封装南京大学小百合论坛的常用操作编写的 API。
-\item 主要工作是解析页面DOM，采用了正则匹配，最终提供合乎规范的调用接口。
+\item 个人项目,使用 PHP 开发。为了封装南京大学小百合论坛的常用操作编写的 API。
+\item 主要工作是解析页面 DOM ，采用了正则匹配，最终提供合乎规范的调用接口。
 \item LilyMe 是该 SDK 的衍生项目，基于 jQuery Mobile 的小百合移动网页版。
 \item LilyClient 是该 SDK 的衍生项目，这是一个 Android 版本的小百合客户端，添加了的部分功能如“@”、”位置标记”和“涂鸦”等。
 \end{itemize}
