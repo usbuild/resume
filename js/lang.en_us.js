@@ -31,7 +31,7 @@ var data = {
                 time: "2012 ~ 2013",
                 content: ["Independent Project, developing with C language, aiming to build a high performace http server, it has similar configuration file with <a href=\"http://nginx.org/\">nginx</a>.",
                     "Implemented functions：custom error pages, 304 status , deflate and gzip compression, http basic authentication, url rewrite, simple reverse proxy and <a href=\"www.fastcgi.com/\">FastCGI</a> support.<br>",
-                    "Performance：under Ubuntu in a VMware instance having 512M memory, it can handle 7wqps of apache ab test at single process mode<br/>",
+                    "Performance：under Ubuntu in a VMware instance having 512M memory, it can handle 7kqps of apache ab test at single process mode<br/>",
                     "To solve the memory leak problem, I wrote a memory pool named <a href=\"https://github.com/usbuild/usmem\">usmem</a>,",
                     " referring the design of <a href=\"http://loki-lib.sourceforge.net/\">Loki</a>.<br/>",
                     "<a href='http://demo.lecoding.com' target='_blank'>==>View Demo Site</a>"
