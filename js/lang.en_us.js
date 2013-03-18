@@ -2,7 +2,7 @@ var data = {
     name: "Qichao Zhang",
     title: "Qichao Zhang's Resume",
     user_info: {
-        addr: "Nanjing University, #22 Hankou Road, 210093",
+        addr: "Nanjing University Software Intitute, 2010, Bachelor",
         phone: "(+86) 152-9838-8316",
         url: "http://lecoding.com",
         mail: "njuzhangqichao@gmail.com"

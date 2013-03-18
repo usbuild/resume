@@ -2,7 +2,7 @@ var data = {
     name: "张启超",
     title: "张启超的简历",
     user_info: {
-        addr: "南京大学, 汉口路22号, 210093",
+        addr: "南京大学软件学院，2010级，本科",
         phone: "(+86) 152-9838-8316",
         url: "http://lecoding.com",
         mail: "njuzhangqichao@gmail.com"
