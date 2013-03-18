@@ -83,8 +83,7 @@ var data = {
             name: "Education",
             contents: [
                 {content: "GPA: 4.1"},
-                {content: "CET4 / CET6: 617 / 546"},
-                {content: "Renming 3rd class scholarship"}
+                {content: "CET4 / CET6: 617 / 546"}
             ]
         },
         {

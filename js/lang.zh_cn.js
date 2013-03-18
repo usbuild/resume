@@ -78,8 +78,7 @@ var data = {
             name: "在校成绩",
             contents: [
                 {content: "GPA: 4.1"},
-                {content: "四 / 六级: 617 / 546"},
-                {content: "获人民三等奖学金"}
+                {content: "四 / 六级: 617 / 546"}
             ]
         },
         {
