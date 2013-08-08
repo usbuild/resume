@@ -47,4 +47,4 @@ var switchEnglish = function () {
     }
 
 };
-switchChinese();
+navigator.language.toLowerCase().indexOf("zh") > -1? switchChinese(): switchEnglish();
