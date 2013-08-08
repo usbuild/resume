@@ -2,7 +2,7 @@ var data = {
     name: "Qichao Zhang",
     title: "Qichao Zhang's Resume",
     user_info: {
-        addr: "Nanjing University Software Intitute, 2010, Bachelor",
+        addr: "Nanjing University Software Institute, 2010, Bachelor",
         phone: "(+86) 152-9838-8316",
         url: "http://lecoding.com",
         mail: "njuzhangqichao@gmail.com"
@@ -19,7 +19,7 @@ var data = {
         {name: "Experience", contents: [
             {   header: "Jiangsu Zhongzheng InfoTech Ltd",
                 time: "2012-7-20 ~ 2012-12-20",
-                content: ["A entrepreneurial team, working on a platform website to serve NJU students, using PHP and Yii Framework. My job here mainly includes",
+                content: ["A entrepreneurial team, working on a platform website to serve NJU students, using PHP and Yii Framework. My job here mainly includes ",
                     "designing the authentication for OAuth2.0 and supplying APIs for the open platform, besides some front-end development (using jQuery and Bootstrap).",
                     "Here, I learned a lot about team cooperation and font-end to backend interaction"
                 ].join("")
@@ -29,7 +29,7 @@ var data = {
             {
                 header: "<a href=\"https://github.com/usbuild/uws\"><strong>UWS,</strong> A lightweight http web server</a>",
                 time: "2012 ~ 2013",
-                content: ["Independent Project, developing with C language, aiming to build a high performace http server, it has similar configuration file with <a href=\"http://nginx.org/\">nginx</a>.",
+                content: ["Independent Project, developing with C language, aiming to build a high performance http server, it has similar configuration file with <a href=\"http://nginx.org/\">nginx</a>.<br/>",
                     "Implemented functions：custom error pages, 304 status , deflate and gzip compression, http basic authentication, url rewrite, simple reverse proxy and <a href=\"www.fastcgi.com/\">FastCGI</a> support.<br>",
                     "Performance：under Ubuntu in a VMware instance having 512M memory, it can handle 7kqps of apache ab test at single process mode<br/>",
                     "To solve the memory leak problem, I wrote a memory pool named <a href=\"https://github.com/usbuild/usmem\">usmem</a>,",
@@ -38,7 +38,7 @@ var data = {
                 ].join("")
             },
             {
-                header: "<a href=\"https://github.com/usbuild/distmem\"><strong>DistMem,</strong> a NoSQL database</a>",
+                header: "<a href=\"https://github.com/usbuild/distmem\"><strong>DistMem,</strong> A NoSQL database</a>",
                 time: "2012 ~ 2013",
                 content: ["Independent Project, developing with C++. It provides simple APIs, like set,get and del.",
                     "It has 4 data types: int, float, string and list, and string is binary safe. ",
