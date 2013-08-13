@@ -17,6 +17,13 @@ var data = {
         ]
         },
         {name: "Experience", contents: [
+            {   header: "Microsoft Shanghai STB SDET",
+                time: "2013-8 to 2013-10",
+                content: ["SDET intern, working on server side development and test.",
+                    "My main job is to develop applications on Windows Azure. During the internship, I built a website, supplying an open platform and a lot of APIs for developers. It contains some built-in apps like <i>im, web disk, GTD</i>, etc.",
+                    "In Microsoft, I learned a lot on large scale software development process and advanced testing technologies."
+                ].join("")
+            },
             {   header: "Jiangsu Zhongzheng InfoTech Ltd",
                 time: "2012-7-20 ~ 2012-12-20",
                 content: ["A entrepreneurial team, working on a platform website to serve NJU students, using PHP and Yii Framework. My job here mainly includes ",
