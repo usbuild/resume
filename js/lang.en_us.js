@@ -17,11 +17,11 @@ var data = {
         ]
         },
         {name: "Experience", contents: [
-            {   header: "Microsoft Shanghai STB SDET",
-                time: "2013-8 to 2013-10",
-                content: ["SDET intern, working on server side development and test.",
-                    "My main job is to develop applications on Windows Azure. During the internship, I built a website, supplying an open platform and a lot of APIs for developers. It contains some built-in apps like <i>im, web disk, GTD</i>, etc.",
-                    "In Microsoft, I learned a lot on large scale software development process and advanced testing technologies."
+            {   header: "Microsoft STB SDET Shanghai",
+                time: "2013-7 to NOW",
+                content: [
+                    "Working at CTP department of Microsoft Commerce Platform, which provides the payment subsystem for Windows Azure and many other Microsoft services. My main job is to add some small features and write test cases for this system.",
+                    "During the internship, I wrote an website based on Windows Azure with the instructions of my mentor. This site is a open platform supplying many APIs for developers, just like an operating system on the web, and it's easy to build apps on it using the SDKs I wrote."
                 ].join("")
             },
             {   header: "Jiangsu Zhongzheng InfoTech Ltd",
