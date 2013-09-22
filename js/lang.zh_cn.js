@@ -20,8 +20,9 @@
             { header: "微软上海 SDET", 
               time: "2013-7 至今",
               content: [
-              "在微软商业平台下的 CTP 部门工作，这个部门的任务主要是为 Windows Azure 和其他的一些微软服务提供支付功能。我的主要任务是编写测试用例，添加一些小的功能等。",
-              "实习期间，在导师的指导下我写了一个在 Windows Azure 上运行的网站。这其实是一个开放平台，给开发者提供了众多的 API。整个网站相当于一个在网页上运行的操作系统，在这个系统上通过已有的 SDK 构建应用十分简单。"
+              "在微软商业平台下的 CTP 部门工作，这个部门的任务主要是为 Windows Azure 和其他的一些微软服务提供支付功能。",
+              "实习期间，在导师的指导下，我利用 Windows Azure 云计算平台编写了一个在浏览器中运行的 OS，提供了大量的 API 供开发者使用，获得了不错的反响。<br>",
+              '项目站点：<a href="http://azuren.chinacloudapp.cn">访问</a>'
                 ].join("")
             },
             {   header: "江苏中正信息科技有限公司",
@@ -91,9 +92,8 @@
         {
             name: "相关链接",
             contents: [
-                {content: "个人博客:  <a href=\"http://lecoding.com\">http://lecoding.com</a>"},
                 {content: "GitHub:   <a href=\"https://github.com/usbuild\">https://github.com/usbuild</a>"},
-                {content: "Twitter:   <a href=\"https://twitter.com/Usbuild\">@Usbuild</a>"}
+                {content: "个人博客:  <a href=\"http://lecoding.com\">http://lecoding.com</a>"}
             ]
         }
     ]
