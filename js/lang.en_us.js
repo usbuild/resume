@@ -20,7 +20,7 @@ var data = {
             {   header: "Microsoft STB SDET Shanghai",
                 time: "2013-7 to NOW",
                 content: [
-                    "Working at CTP department of Microsoft Commerce Platform, which provides the payment subsystem for Windows Azure and many other Microsoft services. My main job is to add some small features and write test cases for this system.",
+                    "Working at Payment department of Microsoft Commerce Platform, which provides the payment subsystem for Windows Azure and many other Microsoft services. My main job is to add some small features and write test cases for this system.",
                     "During the internship, I wrote an website based on Windows Azure with the instructions of my mentor. This site is a open platform supplying many APIs for developers, just like an operating system on the web, and it's easy to build apps on it using the SDKs I wrote."
                 ].join("")
             },

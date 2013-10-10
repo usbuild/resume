@@ -20,7 +20,7 @@
             { header: "微软上海 SDET", 
               time: "2013-7 至今",
               content: [
-              "在微软商业平台下的 CTP 部门工作，这个部门的任务主要是为 Windows Azure 和其他的一些微软服务提供支付功能。",
+              "在微软商业平台下的 Payment 部门工作，这个部门的任务主要是为 Windows Azure 和其他的一些微软服务提供支付功能。",
               "实习期间，在导师的指导下，我利用 Windows Azure 云计算平台编写了一个在浏览器中运行的 OS，提供了大量的 API 供开发者使用，获得了不错的反响。<br>",
               '项目站点：<a href="http://azuren.chinacloudapp.cn">访问</a>'
                 ].join("")
