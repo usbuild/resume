@@ -1,0 +1,119 @@
+﻿\documentclass[margin]{res}
+
+\usepackage{fontspec,xltxtra,xunicode}
+\usepackage{latexsym}
+\usepackage{xeCJK}
+
+\defaultfontfeatures{Mapping=tex-text}
+\setCJKmainfont[BoldFont=SimHei,ItalicFont=KaiTi]{SimSun}
+\setmainfont{Palatino Linotype}
+
+\textwidth=5.2in
+
+\usepackage[hidelinks]{hyperref}
+\begin{document} 
+
+\address{ 张启超 \\ }
+\address{ 南京大学软件学院 2014届  本科 \\ (+86) 183-6888-6319  \\ \href{http://lecoding.com}{http://lecoding.com} \\ 
+\href{mailto:njuzhangqichao@gmail.com}{njuzhangqichao@gmail.com} }
+
+ 
+\begin{resume} 
+ 
+\section{技能} 
+   \begin{tabular}{l p{4in}}
+      \underline{系统} &  Ubuntu, ArchLinux, Gentoo, CentOS \\
+      \underline{编程语言} &  C, Java, PHP, JavaScript, C++, Python, Bash \\
+      \underline{工具} & Vim, Git, GDB, IntelliJ, Eclipse, Maven \\
+      \underline{框架} & jQuery, Yii, Backbone, Spring, Spring MVC, Android
+ \end{tabular}
+
+\section{经验} 
+{\bf 支付宝（中国）网络技术有限公司} \hfill 2013-10 至 2014-4
+\begin{itemize} \itemsep -2pt 
+\item 隶属于共享平台事业群下的基础事业部，其主要项目是OceanBase。OceanBase是阿里巴巴自主研发的分布式关系型数据库，实现了跨行跨表的事务，支持数千亿条记录、
+数百TB数据上的SQL操作。
+\item 在实习过程中，OceanBase正处于0.5版本的开发阶段，我在其中的工作包括优化通用缓存的空间和效率优化、添加SQL语法、编写DBA工具等。
+开发过程中我主要使用C++编写主要代码和测试，使用Python来编写辅助工具，通过严格的code review保证了代码的高质量，最终使得我负责的模块能稳定运行在线上环境中。
+\item 项目站点：\href{https://github.com/alibaba/oceanbase}{https://github.com/alibaba/oceanbase}
+\end{itemize}
+
+{\bf 微软上海 STB SDET} \hfill 2013-7 至 2013-10
+\begin{itemize} \itemsep -2pt 
+\item 在微软商业平台下的 Payment 部门工作，这个部门的任务主要是为 Windows Azure 和其他的一些微软服务(Windows Store, XBOX等)提供支付功能。
+\item 实习期间，在导师的指导下，我利用 Windows Azure 云计算平台编写了一个在浏览器中运行的 OS，提供了大量的 API 供开发者使用，获得了不错的反响。
+\item 项目站点：\href{http://azuren.chinacloudapp.cn}{http://azuren.chinacloudapp.cn}
+\end{itemize}
+
+{\bf 江苏中正信息科技有限公司} \hfill 2012-7 至 2012-12
+\begin{itemize} \itemsep -2pt 
+\item 这是一个创业团队，主要使用 Yii 框架开发 PHP 程序。
+\item 本人的工作主要是设计开放平台 OAuth2.0 认证和平台 API 。除此还进行一些前端的开发工作(基于 jQuery 和 Bootstrap )。
+\item 在开发过程中加深了对前后端协作和团队开发的认识。
+\end{itemize}
+
+\section{项目}
+ {\bf UWS,} 轻量级 HTTP 服务器\hfill 2012 - 2013
+ \begin{itemize} \itemsep -2pt
+
+\item 个人项目,使用 C 语言开发,旨在设计一个高性能的 Web 服务器，功能类似于 Nginx，截至目前版本已达到 0.0.10。
+\item 功能包括：虚拟主机，自定义错误页，304 状态，gzip 和 deflate 压缩，http basic 认证，url 重写，简单的反向代理，FastCGI 支持。
+\item 在虚拟机 512M 的内存情况下，ab 测试 1000 并发单进程处理量超过 7kqps
+\item 为了解决服务器内存泄漏问题，本人编写了一个内存管理程序 \href{https://github.com/usbuild/usmem}{usmem}，借鉴了 Loki 的实现，使内存分配效率得到提高。
+\item 目前测试站点已上线，\href{http://demo.lecoding.com}{http://demo.lecoding.com}
+\end{itemize}
+
+ 
+ 
+{\bf DistMEM,} NoSQL 数据库\hfill  2012 - 2013
+\begin{itemize} \itemsep -2pt
+\item 个人项目，使用 C++ 开发。提供了简单的 API ，支持 set, get 和 del 操作， 数据类型支持 string，float，list，int，其中 string 是二进制安全的。
+\item 数据存储参照了 fat12 文件格式，索引使用了 B 树，为了提高访问性能采用了 LRU 作为缓存算法。
+\item 数据交换协议参照了 Redis，并使用 Python 编写了客户端控制台。
+\item 另外本人还使用 C 语言开发了php\_distmem 作为 PHP 语言访问该数据库的扩展。
+\end{itemize}
+
+{\bf 南大文集,} 南京大学文学爱好者社区 \hfill 2012
+\begin{itemize} \itemsep -2pt
+\item 合作项目,基于 Yii 框架。这是与学长合作的一个项目，旨在为南京大学文学爱好者提供一个单纯的文学交流平台。本人的工作有：
+\item 社交网络分享模块和评论模块
+\item 类 markdown 语法解析器和在 textarea 中显示下拉框的 jQuery 插件。
+\item 其它一些前端和后端琐碎工作，为别人提供 RESTful 接口，修改页面CSS等。
+\end{itemize}
+
+{\bf UPLEX,} Python 语言的 Lex 解析器 \hfill 2012
+\begin{itemize} \itemsep -2pt
+\item 个人项目,使用 Python 语言开发的 LEX 程序。
+\item 依据《编译原理》中的知识设计的 Python 版本的Lex，核心是正则表达式引擎。可对简单的正则使用 NFA->DFA->mDFA 过程处理得到最小化 DFA ，再依据 *.l 文件生成规则解析文件。
+\end{itemize}
+
+{\bf Lily-PHP-SDK,} 南京大学小百合论坛 SDK \hfill 2011 - 2012
+\begin{itemize} \itemsep -2pt
+\item 个人项目,使用 PHP 开发。为了封装南京大学小百合论坛的常用操作编写的 API。
+\item 主要工作是解析页面 DOM ，采用了正则匹配，最终提供合乎规范的调用接口。
+\item LilyMe 是该 SDK 的衍生项目，基于 jQuery Mobile 的小百合移动网页版。
+\item LilyClient 是该 SDK 的衍生项目，这是一个 Android 版本的小百合客户端，添加了的部分功能如“@”、”位置标记”和“涂鸦”等。
+\end{itemize}
+
+{\bf 其它项目}\hfill 2011 - 2013
+\begin{itemize} \itemsep -2pt
+\item 轻博客，基于 Yii 和 jQuery 的博客系统
+\item 网络白板，基于 Java 和 Swing 的远程白板程序，本人主要负责整体架构、语音传输和IPC功能。
+\item 基于 Google App Engine 和 Python 的一些实用程序，如记事本，匿名网盘等。\href{http://tools.lecoding.com}{http://tools.lecoding.com}
+\item 教务网自动选课插件。这是一个 Chrome 插件，用于南京大学教务网抢课，使用 JS 开发，实战效果显著。
+\end{itemize}
+
+\section{在校成绩} 
+   \begin{tabular}{l p{3in}}
+      GPA &  4.1/5.0 \\
+      四 / 六级 & 617 / 546
+ \end{tabular}
+
+\section{相关链接}
+   \begin{tabular}{l p{3in}}
+     \underline{GitHub:} &  \href{https://github.com/usbuild}{https://github.com/usbuild}\\
+     \underline{个人博客:} & \href{http://lecoding.com}{http://lecoding.com}\\
+ \end{tabular}
+
+\end{resume} 
+\end{document} 
